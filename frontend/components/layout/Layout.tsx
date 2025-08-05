@@ -8,6 +8,7 @@ import {
     SuiClientProvider,
     WalletProvider,
 } from "@mysten/dapp-kit";
+import { Toaster } from "sonner";
 
 // Config options for the networks you want to connect to
 const { networkConfig } = createNetworkConfig({
@@ -30,6 +31,7 @@ export default function Layout({
                         <Header />
                         <main className="pt-16">{children}</main>
                     </div>
+                    <Toaster />
                 </WalletProvider>
             </SuiClientProvider>
         </QueryClientProvider>

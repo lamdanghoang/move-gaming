@@ -25,64 +25,15 @@ const Games = () => {
 
     const allGames = [
         {
-            id: "1",
-            title: "Cyber Legends",
+            id: "0",
+            title: "Triple Seven",
             description:
-                "Epic RPG adventure in a cyberpunk world with NFT characters and weapons",
-            image: "photo-1526374965328-7f61d4dc18c5",
-            rating: 4.8,
+                "Triple Seven is a classic slot machine game where players spin three reels in hopes of landing lucky combinations of sevens, fruits, and other symbols to win big rewards",
+            image: "https://png.pngtree.com/png-clipart/20250109/original/pngtree-classic-slot-machine-game-for-casino-lovers-png-image_19329677.png",
+            rating: 5.0,
             players: 15420,
-            category: "RPG",
+            category: "Gambling",
             featured: true,
-        },
-        {
-            id: "2",
-            title: "Space Conquest",
-            description:
-                "Strategic space exploration game with tradeable ships and planets",
-            image: "photo-1470071459604-3b5ec3a7fe05",
-            rating: 4.6,
-            players: 8930,
-            category: "Strategy",
-            featured: true,
-        },
-        {
-            id: "3",
-            title: "Digital Racing",
-            description:
-                "High-speed racing with customizable NFT cars and tracks",
-            image: "photo-1488590528505-98d2b5aba04b",
-            rating: 4.7,
-            players: 12650,
-            category: "Racing",
-            featured: true,
-        },
-        {
-            id: "4",
-            title: "Mystic Realms",
-            description: "Fantasy adventure with magical NFT creatures",
-            image: "photo-1500673922987-e212871fec22",
-            rating: 4.5,
-            players: 7240,
-            category: "Fantasy",
-        },
-        {
-            id: "5",
-            title: "Mech Warriors",
-            description: "Futuristic mech battles with upgradeable robots",
-            image: "photo-1531297484001-80022131f5a1",
-            rating: 4.4,
-            players: 9830,
-            category: "Action",
-        },
-        {
-            id: "6",
-            title: "Crypto Kingdoms",
-            description: "Build and manage your blockchain empire",
-            image: "photo-1500375592092-40eb2168fd21",
-            rating: 4.6,
-            players: 11200,
-            category: "Simulation",
         },
     ];
 

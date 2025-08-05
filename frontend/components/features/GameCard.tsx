@@ -43,7 +43,7 @@ const GameCard = ({
             {/* Game Image */}
             <div className="relative h-48 overflow-hidden">
                 <img
-                    src={`https://images.unsplash.com/${image}?auto=format&fit=crop&w=400&h=300`}
+                    src={image}
                     alt={title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
